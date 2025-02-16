@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<!--
+	Phantom by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Generic - Phantom by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="index.html" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Allen Lian</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="index.html#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<h1>Euler's Pendulum</h1>
+							<span class="image main"><img src="images/eulers/homepage.png" alt="" /></span>
+							<!-- <ul class="actions">
+								<li><a href="https://doro.study" class="button small primary icon solid fa-link">Doro.study</a></li>
+								<li><a href="https://github.com/ShouArchie/doro.study" class="button small icon brands fa-github">Github</a></li>
+								<li><a href="#" class="button small icon brands fa-youtube">Video Demo</a></li>
+							</ul> -->
+							<p><span class="image left"><img src="images/eulers/wormseye2.gif" height="250px" alt="" /></span><span class="image right"><img src="images/eulers/sideview2.gif" height="250px" alt="" /></span>In this study, we investigated the motion of Euler’s Pendulum by developing both an experimental setup and a theoretical model to analyze its dynamics. We constructed a controlled system where a magnetic rod was suspended beneath a fixed neodymium magnet and tracked its oscillatory motion under various conditions. Using motion-tracking techniques, we collected experimental data to examine key parameters such as rod length, magnet strength, and surface thickness. To complement our observations, we formulated a theoretical model based on Lagrangian mechanics, incorporating factors like moment of inertia and magnetic interactions. By comparing experimental results with theoretical predictions, we gained deeper insights into the pendulum’s behavior, including dissipation effects and the forces driving its motion.</p>
+							<br>							<code>Python</code>
+							<code>SciPy</code>
+							<code>Matplotlib</code>
+							<code>Tracker</code>
+							<code>Arduino</code>
+							<code>Onshape</code>
+							<code>Euler Lagrange</code>
+							<!-- <div id="image-container" class="image-grid"></div> -->
+						</div>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<section>
+								<h2>Get in touch</h2>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<input type="text" name="name" id="name" placeholder="Name" />
+										</div>
+										<div class="field half">
+											<input type="email" name="email" id="email" placeholder="Email" />
+										</div>
+										<div class="field">
+											<textarea name="message" id="message" placeholder="Message"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send" class="primary" /></li>
+									</ul>
+								</form>
+							</section>
+							<section>
+								<!-- <h2>Follow</h2>
+								<ul class="icons">
+									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
+									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+								</ul> -->
+							</section>
+							<ul class="copyright">
+								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				document.addEventListener("DOMContentLoaded", function () {
+					const imageContainer = document.getElementById("image-container");
+			
+					for (let i = 1; i <= 93; i++) {
+						let img = document.createElement("img");
+						img.src = `images/pancake/slides/Slide${i}.PNG`; // Adjust the path as needed
+						img.alt = `Image ${i}`;
+						img.classList.add("image-style"); // Apply styling
+						imageContainer.appendChild(img);
+					}
+				});
+			</script>
+	</body>
+</html>
